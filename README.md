@@ -8,7 +8,7 @@ So that an overview of the mailq can be obtained immediately.
 
 It is also possible to delete emails from the queue or execute an individual Postfix command in combination with the queue ID.
 
-**For more information on how to purchase the software visit the website <https://yellowcow.ch/produkt/mmq/>**
+**For more information on how to purchase the software visit <https://yellowcow.ch/produkt/mmq/>**
 
 ## Commands
 
