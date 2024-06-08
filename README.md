@@ -8,6 +8,8 @@ So that an overview of the mailq can be obtained immediately.
 
 It is also possible to delete emails from the queue or execute an individual Postfix command in combination with the queue ID.
 
+**For more information on how to purchase the software visit the website <https://yellowcow.ch/produkt/mmq/>**
+
 ## Commands
 
 Action to be performed for the selected entries:
@@ -104,6 +106,6 @@ Copyright (c) 2024 APM-IT. All rights reserved.
 
 This software is protected by copyright and may not be reproduced, distributed or modified without the express permission of the author.
 
-To purchase a licence to use this software, please contact APM-IT at mmq@apm-it.eu.
+To purchase a licence to use this software, please visit the website <https://yellowcow.ch/produkt/mmq/>.
 
 Unauthorised use, duplication or distribution of this software is prohibited and may have legal consequences.
