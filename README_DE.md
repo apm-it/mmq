@@ -1,10 +1,13 @@
 #mmq - manager mail queue von Postfix
+
 ##Beschreibung
+
 mmq ist ein nützliches Tool, um die Verwendung von Postfix mailq zu vereinfachen. Mit mmq können E-Mails gefiltert und als Tabelle oder Liste ausgegeben werden. So kann sofort ein Überblick über die Mail-Warteschlange erhalten werden.
 
 Es ist auch möglich, E-Mails aus der Warteschlange zu löschen oder einen individuellen Postfix-Befehl in Kombination mit der Queue-ID auszuführen.
 
 ##Befehle
+
 Aktionen für die ausgewählten Einträge:
 Standardmäßig wird die Mail-Warteschlange als Tabelle ausgegeben.
 
@@ -15,6 +18,7 @@ Zeigt (über postqueue -p) eine detaillierte Auflistung der ausgewählten Eintr�
 Löscht (über postsuper -d) die ausgewählten Einträge.
 
 ##Optionen
+
 **-t PATTERN, --timestamp PATTERN**
 Filtert den Ankunftszeitstempel mit PATTERN (Platzhalter erlaubt).
 
@@ -52,6 +56,7 @@ Zeigt die Versionsnummer des Programms an und beenden es
 Zeigt die Hilfemeldung an und beenden das Programm
 
 ##Beispiele
+
 **Beispiel 1:** Zeigen Sie alle Einträge in der Warteschlange, die an eine Empfängeradresse gesendet wurden, die "@example.com" entspricht im Format:
 
      > mmq t "Jun 5 14:*"-d "*@example.com"
