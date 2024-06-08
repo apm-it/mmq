@@ -61,7 +61,7 @@ Zeigt die Hilfemeldung an und beenden das Programm
 
 **Beispiel 1:** Zeigen Sie alle Einträge in der Warteschlange, die an eine Empfängeradresse gesendet wurden, die "@example.com" entspricht im Format:
 
-     > mmq t "Jun 5 14:*"-d "*@example.com"
+     > mmq -t "Jun 5 14:*"-d "*@example.com"
           
           Queue ID:      Arrival Time:   activ|hold  Size:     source:               destination:                  error-msg:
           B84979DF4      Jun 5 14:03:14      0|0     380       berd@test.de          bernd.albert@example.com      (connect to example.com[86.105.235.169]:25: Connection refused)
