@@ -1,12 +1,12 @@
-#mmq - manager mail queue von Postfix
+# mmq - manager mail queue von Postfix
 
-##Beschreibung
+## Beschreibung
 
 mmq ist ein nützliches Tool, um die Verwendung von Postfix mailq zu vereinfachen. Mit mmq können E-Mails gefiltert und als Tabelle oder Liste ausgegeben werden. So kann sofort ein Überblick über die Mail-Warteschlange erhalten werden.
 
 Es ist auch möglich, E-Mails aus der Warteschlange zu löschen oder einen individuellen Postfix-Befehl in Kombination mit der Queue-ID auszuführen.
 
-##Befehle
+## Befehle
 
 Aktionen für die ausgewählten Einträge:
 Standardmäßig wird die Mail-Warteschlange als Tabelle ausgegeben.
@@ -17,7 +17,7 @@ Zeigt (über postqueue -p) eine detaillierte Auflistung der ausgewählten Eintr�
 **del**
 Löscht (über postsuper -d) die ausgewählten Einträge.
 
-##Optionen
+## Optionen
 
 **-t PATTERN, --timestamp PATTERN**
 Filtert den Ankunftszeitstempel mit PATTERN (Platzhalter erlaubt).
@@ -55,14 +55,14 @@ Zeigt die Versionsnummer des Programms an und beenden es
 **-h, --help**
 Zeigt die Hilfemeldung an und beenden das Programm
 
-##Beispiele
+## Beispiele
 
 **Beispiel 1:** Zeigen Sie alle Einträge in der Warteschlange, die an eine Empfängeradresse gesendet wurden, die "@example.com" entspricht im Format:
 
      > mmq t "Jun 5 14:*"-d "*@example.com"
           
           Queue ID:      Arrival Time:   activ|hold  Size:     source:               destination:                  error-msg:
-          B84979DF4      Jun 5 14:03:14      0|0     380       berd@test.de          bernd.albert@example.com     (connect to example.com[86.105.235.169]:25: Connection refused)
+          B84979DF4      Jun 5 14:03:14      0|0     380       berd@test.de          bernd.albert@example.com      (connect to example.com[86.105.235.169]:25: Connection refused)
           637999E47      Jun 5 14:15:55      0|0     380       hallo@abc-xyz.de      kontakt@example.com           (connect to example.com[86.103.245.69]:25: Connection refused)
           F412BED6B      Jun 5 14:45:25      0|0     481       test@test.com         no-reply@example.com          (connect to example.com[3.18.255.247]:25: Connection timed out)
           0504AED77      Jun 5 14:50:55      0|0     481       test@test.com         order@example.com             (delivery temporarily suspended: connect to example.com[34.224.149.186]:25: Connection timed out)
@@ -93,7 +93,7 @@ Zeigt die Hilfemeldung an und beenden das Programm
           F20D3ED66: (postsuper: F20D3ED66: requeued postsuper: Requeued: 1 message)
           F1297ED64: (postsuper: F1297ED64: requeued postsuper: Requeued: 1 message)
 
-##Autor
+## Autor
 
 APM-IT <mmq@apm-it.eu>
 
