@@ -6,7 +6,9 @@ mmq ist ein nützliches Tool, um die Verwendung von Postfix mailq zu vereinfache
 
 Es ist auch möglich, E-Mails aus der Warteschlange zu löschen oder einen individuellen Postfix-Befehl in Kombination mit der Queue-ID auszuführen.
 
-**Weitere Informationen über den Erwerb der Software finden Sie auf <https://yellowcow.ch/produkt/mmq/>**
+**Die Software ist für den privaten Gebrauch kostenlos erhältlich. Senden Sie einfach eine E-Mail an <mmq@apm-it.eu>**
+
+**Weitere Informationen über den Erwerb der Software für kommerzielle Nutzung finden Sie unter <https://yellowcow.ch/produkt/mmq/>**
 
 ## Befehle
 
