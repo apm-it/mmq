@@ -99,11 +99,11 @@ Zeigt die Hilfemeldung an und beenden das Programm
 
 ## Autor
 
-APM-IT <mmq@apm-it.eu>
+[APM IT](https://apm-it.eu) <mmq@apm-it.eu>
 
 ## Copyright and license
 
-Copyright (c) 2024 APM-IT. All rights reserved.
+Copyright (c) 2024 [APM IT](https://apm-it.eu). All rights reserved.
 
 This software is protected by copyright and may not be reproduced, distributed or modified without the express permission of the author.
 
