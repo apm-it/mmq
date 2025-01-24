@@ -8,7 +8,7 @@ Es ist auch möglich, E-Mails aus der Warteschlange zu löschen oder einen indiv
 
 **Die Software ist für den privaten Gebrauch kostenlos erhältlich. Senden Sie einfach eine E-Mail an <mmq@apm-it.eu>**
 
-**Weitere Informationen über den Erwerb der Software für kommerzielle Nutzung finden Sie unter <https://yellowcow.ch/produkt/mmq/>**
+**Weitere Informationen über den Erwerb der Software für kommerzielle Nutzung finden Sie unter <https://yellowcow.ch/mmq-manager-mail-queue-von-postfix>**
 
 ## Befehle
 
