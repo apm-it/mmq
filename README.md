@@ -10,7 +10,7 @@ It is also possible to delete emails from the queue or execute an individual Pos
 
 **The program is available free of charge for private use Simply send an e-mail to <mmq@apm-it.eu>**
 
-**For more information on how to purchase the software for commercial use visit <https://yellowcow.ch/produkt/mmq/>**
+**For more information on how to purchase the software for commercial use visit <https://yellowcow.ch/mmq-manager-mail-queue-von-postfix>**
 
 ## Commands
 
